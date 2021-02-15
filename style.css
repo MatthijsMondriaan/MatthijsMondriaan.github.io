@@ -19,7 +19,7 @@ h2 {
 
 h3 {
   font-family: helvetica;
-  color: lightblue;
+  color: darkblue;
   text-align: center;
 }
 
@@ -28,3 +28,8 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+
+.centeredParagraph {
+    text-align: center;
+}
+
