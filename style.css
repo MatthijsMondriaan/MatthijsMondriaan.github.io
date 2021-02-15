@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  font-family: helvetica;
+  color: lightblue;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-family: verdana;
+  font-size: 20px;
+}
