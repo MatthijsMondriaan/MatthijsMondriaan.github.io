@@ -1,31 +1,34 @@
 body {
-  background-color: white;
+  background-color: ##aaa;
 }
 
 h1 {
+  font-family: helvetica;
   color: black;
   text-align: center;
 }
 
 h1 {
-  color: darkblue;
+  font-family: helvetica;
+  color: black;
   text-align: center;
 }
 
 h2 {
+  font-family: helvetica;
   color: black;
   text-align: center;
 }
 
 h3 {
   font-family: helvetica;
-  color: darkblue;
+  color: black;
   text-align: center;
 }
 
 p {
+  font-family: helvetica;
   color: black;
-  font-family: verdana;
   font-size: 20px;
 }
 
@@ -40,7 +43,57 @@ img {
     text-align: center;
 }
 
-.greenBackground {
-   background-color: green;
+.blackBackground {
+   background-color: black;
+   color: #fff;
    opacity: 1.0;
 }
+
+#special {
+  background-color: #666;
+}
+
+/**************** div ****************/
+
+* div {
+  /*background-color: blue;*/
+  font-family: helvetica;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/*
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+*/
+/**************** image ****************/
+
+.jumbotron {
+  width: 50%;
+  /*max-width: 100%;*/
+  height: auto;
+  background-image: url("images/denhaagskylinecut.jpg");
+  background-color: #cccccc;
+  vertical-align: middle;
+}
+
+.roundImage {
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+
+
