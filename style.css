@@ -53,6 +53,11 @@ img {
   background-color: #666;
 }
 
+.lightText {
+    color: white;
+    font-size: 100px;
+}
+
 /**************** div ****************/
 
 * div {
@@ -81,12 +86,12 @@ img {
 */
 /**************** image ****************/
 
-.jumbotron {
-  width: 50%;
+.banner {
+  width: 100%;
   /*max-width: 100%;*/
   height: auto;
   background-image: url("images/denhaagskylinecut.jpg");
-  background-color: #cccccc;
+  background-color: #ff55ff;
   vertical-align: middle;
 }
 
