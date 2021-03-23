@@ -95,7 +95,12 @@ img {
   vertical-align: middle;
 }
 
-.roundImage {
+.page-title {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.round-image{
   vertical-align: middle;
   border-radius: 50%;
 }

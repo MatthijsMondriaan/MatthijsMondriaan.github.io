@@ -13,4 +13,4 @@ function fibonacci(num){
 	return b;
   }
 
-var numbers = fibonacci(24);
+var numbers = fibonacci(8);
