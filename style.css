@@ -95,12 +95,16 @@ img {
   vertical-align: middle;
 }
 
+.top-button-container {
+  float: right;
+}
+
 .page-title {
   text-align: center;
   vertical-align: middle;
 }
 
-.round-image{
+.round-image {
   vertical-align: middle;
   border-radius: 50%;
 }
