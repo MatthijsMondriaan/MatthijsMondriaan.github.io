@@ -9,6 +9,7 @@ if (darkSideButton) {
 function enterTheDarkSide()	{
 	const pageBody = document.querySelector('.page-body');
 
+	// If light, then dark. If dark, then light..
 	if (pageBody.classList.contains('dark-side')) {
 		console.log("Enter the light side..");
 		pageBody.classList.remove('dark-side');
@@ -18,6 +19,6 @@ function enterTheDarkSide()	{
 		pageBody.classList.remove('light-side');
 		pageBody.classList.add('dark-side');
 	}
-
+	
 	//pageBody.classList.toggle('dark-side');
 }
