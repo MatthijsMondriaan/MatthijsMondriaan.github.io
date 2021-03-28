@@ -27,10 +27,12 @@ function enterTheDarkSide()	{
 }
 
 function calculateStuff() {
-	 const form = document.forms.calculator;
-	 const elementOne = document.querySelector('number-one');
-	 const elementTwo = document.querySelector('number-two');
-	 const result = elementOne + elementTwo;
+	const form = document.forms.calculator;
+    const elementOne = document.querySelector('.inputfield-1').value;
+	const elementTwo = document.querySelector('.inputfield-2').value;
+	const result = elementOne + elementTwo;
+    const resultLabel = document.querySelector('.result-label');
 
-	 console.log(`The result is: ${result}`);
+	console.log(`Number one is ${elementOne} and number two is ${elementTwo} and the result is: ${result}`);
+	resultLabel.textContent = result;//result.value;
 }
